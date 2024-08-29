@@ -1,0 +1,80 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.black{
+    background-color:rgb(0, 0, 0);
+    width: 100%;
+    height: 100vh;
+}
+
+.drift {
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+    color: white
+}
+
+*before,
+:after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.track {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 400px;
+    gap: 20px;
+    font-weight: lighter;
+    font-family: sans-serif;
+    letter-spacing: 0.5px;
+    transition: 0.2;
+    
+}
+
+.track a {
+    color: rgba(255, 255, 255, 0.603);
+    text-decoration: none;
+    position: relative;
+}
+
+.track a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.rent{
+    color: white;
+    padding-top: 15px;
+    padding-left: 70%;
+}
+
+.line {
+    width: 90%;
+    height: 1px;
+    background-color: white;
+    margin-top: 20px;
+    margin: 50px;
+}
+
+.white{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 100vh;
+}
+
+
+.col{
+    width: 40%;
+    height: 30%;
+    padding-left: 70px;
+}
+
+
+
